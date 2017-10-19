@@ -4,9 +4,9 @@
   <wxString Value="/home/darkness/code/roma3/algoritmiStruttureDati/c_projects/programmingc/programmingc.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/home/darkness/code/roma3/algoritmiStruttureDati/c_projects/programmingc/sum_of_fattororiale/main.c" Name="FileName"/>
-      <int Value="1" Name="FirstVisibleLine"/>
-      <int Value="15" Name="CurrentLine"/>
+      <wxString Value="/home/darkness/code/roma3/algoritmiStruttureDati/c_projects/programmingc/recor_selection_sort/main.c" Name="FileName"/>
+      <int Value="37" Name="FirstVisibleLine"/>
+      <int Value="52" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
