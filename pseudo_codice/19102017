@@ -15,3 +15,19 @@ ENQUEUE(c,x)
 DEQUEUE(c)
     while(!IS_EMPTY(c.p1))
         PUSH(c.p2, POP(c.p1))
+
+##################################
+
+POP(p)
+    sel = 0
+    if(IS_EMPTY(p.c[0]) && IS_EMPTY(p.c[1]))
+        error("underflow")
+    if(IS_EMPTY(p.c[0]))
+        sel = 1
+    elem = DEQUEUE((p.c[sel]))
+    while(!IS_EMPTY(p.c[sel]))
+        ENQUEUE(p.c[1-sel], elem)
+        elem = DEQUEUE(p.c[sel])
+    return elem
+
+###################################################
