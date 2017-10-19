@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ testExit - Debug ]----------"
-	@cd "testExit" && "$(MAKE)" -f  "testExit.mk"
+	@echo "----------Building project:[ puntatori - Debug ]----------"
+	@cd "puntatori" && "$(MAKE)" -f  "puntatori.mk"
 clean:
-	@echo "----------Cleaning project:[ testExit - Debug ]----------"
-	@cd "testExit" && "$(MAKE)" -f  "testExit.mk" clean
+	@echo "----------Cleaning project:[ puntatori - Debug ]----------"
+	@cd "puntatori" && "$(MAKE)" -f  "puntatori.mk" clean

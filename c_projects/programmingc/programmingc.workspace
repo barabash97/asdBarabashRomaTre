@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="programmingc" Database="" Version="10.0.0">
   <Project Name="sum_of_fattororiale" Path="sum_of_fattororiale/sum_of_fattororiale.project" Active="No"/>
   <Project Name="recor_selection_sort" Path="recor_selection_sort/recor_selection_sort.project" Active="No"/>
-  <Project Name="testExit" Path="testExit/testExit.project" Active="Yes"/>
+  <Project Name="testExit" Path="testExit/testExit.project" Active="No"/>
+  <Project Name="puntatori" Path="puntatori/puntatori.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="sum_of_fattororiale" ConfigName="Debug"/>
       <Project Name="recor_selection_sort" ConfigName="Debug"/>
       <Project Name="testExit" ConfigName="Debug"/>
+      <Project Name="puntatori" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="sum_of_fattororiale" ConfigName="Release"/>
       <Project Name="recor_selection_sort" ConfigName="Release"/>
       <Project Name="testExit" ConfigName="Release"/>
+      <Project Name="puntatori" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
