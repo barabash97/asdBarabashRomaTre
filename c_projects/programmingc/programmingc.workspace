@@ -4,7 +4,8 @@
   <Project Name="recor_selection_sort" Path="recor_selection_sort/recor_selection_sort.project" Active="No"/>
   <Project Name="testExit" Path="testExit/testExit.project" Active="No"/>
   <Project Name="puntatori" Path="puntatori/puntatori.project" Active="No"/>
-  <Project Name="esercizi19102017" Path="esercizi19102017/esercizi19102017.project" Active="Yes"/>
+  <Project Name="esercizi19102017" Path="esercizi19102017/esercizi19102017.project" Active="No"/>
+  <Project Name="stack" Path="stack/stack.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="testExit" ConfigName="Debug"/>
       <Project Name="puntatori" ConfigName="Debug"/>
       <Project Name="esercizi19102017" ConfigName="Debug"/>
+      <Project Name="stack" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="testExit" ConfigName="Release"/>
       <Project Name="puntatori" ConfigName="Release"/>
       <Project Name="esercizi19102017" ConfigName="Release"/>
+      <Project Name="stack" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
