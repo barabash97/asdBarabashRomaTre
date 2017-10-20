@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+/**
+ale baragona
+ * */
 typedef struct {
     int top; //indice dell'elemento affiorante
     int* A; //array dinamico degli elementi
@@ -25,6 +27,10 @@ int IS_EMPTY(Stack* s){
 
 int main(int argc, char **argv)
 {
-    Stack s = new_stack();
+    Stack *s = new_stack();
+    
+    if(IS_EMPTY(s)){
+        printf("Empty");
+    } 
     return 0;
 }
