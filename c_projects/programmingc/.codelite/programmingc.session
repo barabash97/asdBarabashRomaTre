@@ -4,9 +4,9 @@
   <wxString Value="/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/programmingc.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/esercizi19102017/esericizio-stack.c" Name="FileName"/>
-      <int Value="14" Name="FirstVisibleLine"/>
-      <int Value="19" Name="CurrentLine"/>
+      <wxString Value="/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/070-ricorsione-e-complessita/fattoriale_ricorsivo.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="25" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

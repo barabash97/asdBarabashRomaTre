@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ stack - Debug ]----------"
-	@cd "stack" && "$(MAKE)" -f  "stack.mk"
+	@echo "----------Building project:[ 070-ricorsione-e-complessita - Debug ]----------"
+	@cd "070-ricorsione-e-complessita" && "$(MAKE)" -f  "070-ricorsione-e-complessita.mk"
 clean:
-	@echo "----------Cleaning project:[ stack - Debug ]----------"
-	@cd "stack" && "$(MAKE)" -f  "stack.mk" clean
+	@echo "----------Cleaning project:[ 070-ricorsione-e-complessita - Debug ]----------"
+	@cd "070-ricorsione-e-complessita" && "$(MAKE)" -f  "070-ricorsione-e-complessita.mk" clean

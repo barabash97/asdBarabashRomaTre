@@ -5,7 +5,10 @@
   <Project Name="testExit" Path="testExit/testExit.project" Active="No"/>
   <Project Name="puntatori" Path="puntatori/puntatori.project" Active="No"/>
   <Project Name="esercizi19102017" Path="esercizi19102017/esercizi19102017.project" Active="No"/>
-  <Project Name="stack" Path="stack/stack.project" Active="Yes"/>
+  <Project Name="stack" Path="stack/stack.project" Active="No"/>
+  <Project Name="coda" Path="coda/coda.project" Active="No"/>
+  <Project Name="homework1" Path="homework1/homework1.project" Active="No"/>
+  <Project Name="070-ricorsione-e-complessita" Path="070-ricorsione-e-complessita/070-ricorsione-e-complessita.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -15,6 +18,9 @@
       <Project Name="puntatori" ConfigName="Debug"/>
       <Project Name="esercizi19102017" ConfigName="Debug"/>
       <Project Name="stack" ConfigName="Debug"/>
+      <Project Name="coda" ConfigName="Debug"/>
+      <Project Name="homework1" ConfigName="Debug"/>
+      <Project Name="070-ricorsione-e-complessita" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -24,6 +30,9 @@
       <Project Name="puntatori" ConfigName="Release"/>
       <Project Name="esercizi19102017" ConfigName="Release"/>
       <Project Name="stack" ConfigName="Release"/>
+      <Project Name="coda" ConfigName="Release"/>
+      <Project Name="homework1" ConfigName="Release"/>
+      <Project Name="070-ricorsione-e-complessita" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
