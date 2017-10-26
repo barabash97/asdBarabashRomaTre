@@ -1,0 +1,24 @@
+/* 
+l è una lista semplicemente concatenata realizzata con oggetti e puntatori.
+Esco con un errore se la lista è vuota 
+*/
+MASSIMO(l) 
+	x = l.head // Alternativa, i = FIRST(l)
+	if(x != NULL)
+		max = i.info
+	while(x != NULL)
+		if x.info > max
+			max = x.info
+		x = x.next
+	return max
+
+Scorrendo la lista -> c'è sempre un iteratore
+############################################################################
+
+SOMMA(l)
+    somma = 0
+    x = l.head
+    while(x != NULL)
+        somma += x.info
+        x = x.next
+    return somma
