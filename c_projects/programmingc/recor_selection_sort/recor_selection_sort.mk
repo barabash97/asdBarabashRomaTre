@@ -5,15 +5,15 @@
 ## Debug
 ProjectName            :=recor_selection_sort
 ConfigurationName      :=Debug
-WorkspacePath          :=/home/darkness/code/roma3/algoritmiStruttureDati/c_projects/programmingc
-ProjectPath            :=/home/darkness/code/roma3/algoritmiStruttureDati/c_projects/programmingc/recor_selection_sort
+WorkspacePath          :=/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc
+ProjectPath            :=/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/recor_selection_sort
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=darkness
-Date                   :=13/10/17
+Date                   :=27/10/17
 CodeLitePath           :=/home/darkness/.codelite
 LinkerName             :=/usr/bin/g++
 SharedObjectLinkerName :=/usr/bin/g++ -shared -fPIC
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/darkness/code/roma3/algoritmiStruttureDati/c_projects/programmingc/recor_selection_sort/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/recor_selection_sort/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 
