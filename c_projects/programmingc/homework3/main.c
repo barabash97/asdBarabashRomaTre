@@ -40,8 +40,31 @@ int valore_massimo_lista(plist p)
        return max;
 }
 
+plist *randomList(){
+    
+    int i;
+    plist nodo =(plist*) malloc(sizeof(plist));
+    plist head =nodo;
+    for(i = 1; i < 11; i++){
+        nodo->info = i;
+        nodo->next = (plist*) malloc(sizeof(plist));
+        nodo = nodo->next;
+    }
+    
+    nodo->next = NULL;
+    return head;
+}
+
+void stampaLista(plist p){
+    while(p != NULL){
+        printf("\n%d", p->info);
+        p = p->next;
+    }
+}
+
 int main(int argc, char** argv)
 {
-    printf("hello world\n");
+    plist *nodo = randomList();
+    stampaLista(nodo);
     return 0;
 }
