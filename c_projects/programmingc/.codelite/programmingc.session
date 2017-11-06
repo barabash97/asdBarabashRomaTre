@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/programmingc.workspace">
-  <int Value="1" Name="m_selectedTab"/>
+  <int Value="0" Name="m_selectedTab"/>
   <wxString Value="/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/programmingc.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/lista-array-27102017/lista-array.h" Name="FileName"/>
+      <wxString Value="/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/valore_massimo_matrice/main.c" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="16" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/lista-array-27102017/lista-array.c" Name="FileName"/>
-      <int Value="60" Name="FirstVisibleLine"/>
-      <int Value="72" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/lista-array-27102017/main.c" Name="FileName"/>
-      <int Value="5" Name="FirstVisibleLine"/>
-      <int Value="17" Name="CurrentLine"/>
+      <int Value="2" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
