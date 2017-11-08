@@ -1,0 +1,96 @@
+IS_EMPTY(l)
+	return l.head == NULL
+
+EMPTY(l) 
+	l.head = NULL //Lo pseudocodice non dealloca memoria
+
+FIRST(l)
+	return l.head //Potrebbe essere NULL
+
+NEXT(l, i)
+	return i.next //il parametro l non è utilizzato
+
+INSERT(l, n) //n è un intero
+	x.info = n //x è un nuovo oggetto con due campi: x.info (intero) e x.next (rif. Ad analogo oggetto)
+	x.next = l.head
+	l.head = x
+
+DELETE_FIRST(l)
+    //Nota: lo pseudocodice non dealloca l'elemento
+    if(l.head == NULL)
+        error("Lista vuota");
+    else 
+        l.head = l.head.next
+
+DELETE(l,i)
+	if(l.head == i)
+		l.head = l.head.next
+		return
+	x = l.head
+	while (x != NULL)
+		if (x.next == i)
+			x.next = x.next.next
+			return
+		x = x.next
+	return
+
+MASSIMO(l)  /* se l è vuota esce con un errore */
+	x = l.head
+	if (x == NULL) 
+		errore("MASSIMO su lista vuota")
+	max = x.info
+	while (x != NULL)
+		if (x.info > max)
+			max = x.info
+		x = x.next
+	return max
+
+SOMMA(l)
+	somma = 0
+	x = l.head
+	while (x != NULL)
+		somma = somma + x.info
+		x = x.next
+	return somma
+
+SEARCH(l,u)
+	x = l.head
+	while (x!=NULL)
+		if (x.info == u)
+			return x
+		x = x.next
+	return NULL
+
+PREV(l,i)
+	x = l.head
+	while (x!=NULL)
+		if (x.next == i)
+			return x
+		x = x.next
+	return NULL
+
+DELETE(l,i)
+	if(l.head == i)
+		l.head = l.head.next
+		return
+	x = l.head
+	while (x != NULL)
+		if (x.next == i)
+			x.next = x.next.next
+			return
+		x = x.next
+	return
+
+DELETE(l,u)  /* assumo che u sia nella lista l */
+	if( l.head.info == u)  // u è il primo elemento
+		l.head = l.head.next
+		return
+	prev = l.head
+	x = prev.next
+	while (x != NULL)
+		if (x.info == u)
+			prev.next = x.next
+			return
+		x = x.next
+		prev = prev.next
+    return  // non ho trovato u

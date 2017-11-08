@@ -1,0 +1,40 @@
+CREATE_LIST(maxsize)
+    /*Creo un nuovo oggetto l con:
+    l.next, l.key, l.prev array di maxsize interi
+    l.head, l.free interi */
+
+    for i = 0 to maxsize - 1
+        i.next[i] = i + 1
+        i.prev[i] = i - 1
+    i.next[maxsize-1] = -1 
+    l.head = -1
+    l.free = 0
+
+    return l
+
+ALLOCATE_COLUMN(l)
+    if(l.free == -1)
+        error("Overflow");
+    else
+        i = l.free //i è l'indice della nuova posizione
+        l.free = l.next[l.free]
+
+        if(l.free != -1)
+            l.prev[l.free] = -1
+    return l
+
+FREE_COLUMN(l, i)
+    l.prev[i] = -1
+    l.next[i] = l.free
+    if(l.free != -1)
+        l.prev[l.free] = i
+    l.free = i
+
+INSERT(l,x) //X è il valore da aggiungere in lista
+    i = ALLOCATE_COLUMN(l) //Indice di ua nuova colonna libera
+    l.key[i] = X
+    l.prev[i] = -1
+    l.next[i] = l.head
+    if(l.head != -1)
+        l.prev[l.head] = i
+    l.head = i
