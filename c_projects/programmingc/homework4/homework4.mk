@@ -60,7 +60,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IntermediateDirectory)/random.c$(ObjectSuffix) 
 
 
 
@@ -98,6 +98,14 @@ $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 
 $(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
 	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) main.c
+
+$(IntermediateDirectory)/random.c$(ObjectSuffix): random.c $(IntermediateDirectory)/random.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/homework4/random.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/random.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/random.c$(DependSuffix): random.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/random.c$(ObjectSuffix) -MF$(IntermediateDirectory)/random.c$(DependSuffix) -MM random.c
+
+$(IntermediateDirectory)/random.c$(PreprocessSuffix): random.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/random.c$(PreprocessSuffix) random.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

@@ -1,5 +1,5 @@
 #include <stdio.h> /* ora puoi usare NULL */
-
+#include "random.h"
 /* scrivi qui la definizione del tipo "elist" (elemento della lista) con i campi "info" (intero) e "next" (prossimo
  * elemento) */
 
@@ -56,6 +56,6 @@ int compara_array_lista(int A[], int n, plist p)
 
 int main(int argc, char** argv)
 {
-    printf("hello world\n");
+    printf("%d\n", random_intero(0, 10));
     return 0;
 }

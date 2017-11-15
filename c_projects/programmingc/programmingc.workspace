@@ -13,7 +13,8 @@
   <Project Name="valore_massimo_matrice" Path="valore_massimo_matrice/valore_massimo_matrice.project" Active="No"/>
   <Project Name="homework3" Path="homework3/homework3.project" Active="No"/>
   <Project Name="gestione-lista" Path="gestione-lista/gestione-lista.project" Active="No"/>
-  <Project Name="homework4" Path="homework4/homework4.project" Active="Yes"/>
+  <Project Name="homework4" Path="homework4/homework4.project" Active="No"/>
+  <Project Name="random" Path="random/random.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -31,6 +32,7 @@
       <Project Name="homework3" ConfigName="Debug"/>
       <Project Name="gestione-lista" ConfigName="Debug"/>
       <Project Name="homework4" ConfigName="Debug"/>
+      <Project Name="random" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -48,6 +50,7 @@
       <Project Name="homework3" ConfigName="Release"/>
       <Project Name="gestione-lista" ConfigName="Release"/>
       <Project Name="homework4" ConfigName="Release"/>
+      <Project Name="random" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
