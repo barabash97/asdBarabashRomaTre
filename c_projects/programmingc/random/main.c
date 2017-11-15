@@ -2,6 +2,7 @@
 #include "random.h";
 int main(int argc, char **argv)
 {
+    printf("Value: %d\n", random_intero(3,4));
 	test();
     
 	return 0;
