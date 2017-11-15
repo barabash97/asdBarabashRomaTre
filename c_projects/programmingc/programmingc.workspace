@@ -11,7 +11,9 @@
   <Project Name="070-ricorsione-e-complessita" Path="070-ricorsione-e-complessita/070-ricorsione-e-complessita.project" Active="No"/>
   <Project Name="lista-array-27102017" Path="lista-array-27102017/lista-array-27102017.project" Active="No"/>
   <Project Name="valore_massimo_matrice" Path="valore_massimo_matrice/valore_massimo_matrice.project" Active="No"/>
-  <Project Name="homework3" Path="homework3/homework3.project" Active="Yes"/>
+  <Project Name="homework3" Path="homework3/homework3.project" Active="No"/>
+  <Project Name="gestione-lista" Path="gestione-lista/gestione-lista.project" Active="No"/>
+  <Project Name="homework4" Path="homework4/homework4.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -27,6 +29,8 @@
       <Project Name="lista-array-27102017" ConfigName="Debug"/>
       <Project Name="valore_massimo_matrice" ConfigName="Debug"/>
       <Project Name="homework3" ConfigName="Debug"/>
+      <Project Name="gestione-lista" ConfigName="Debug"/>
+      <Project Name="homework4" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -42,6 +46,8 @@
       <Project Name="lista-array-27102017" ConfigName="Release"/>
       <Project Name="valore_massimo_matrice" ConfigName="Release"/>
       <Project Name="homework3" ConfigName="Release"/>
+      <Project Name="gestione-lista" ConfigName="Release"/>
+      <Project Name="homework4" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

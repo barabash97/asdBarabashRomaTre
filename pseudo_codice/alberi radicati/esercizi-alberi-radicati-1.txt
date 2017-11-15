@@ -1,0 +1,81 @@
+NEW_TREE()
+    /* T è un nuovo albero con il campo T root*/
+    T.root = NULL
+    return T 
+
+IS_EMPTY(t)
+    return t.root == NULL
+
+ROOT(t)
+    return t.root
+
+LEFT(t, n)
+    return n.left
+
+
+RIGHT(t, n)
+    return n.right
+
+
+INFO(t, n)
+    return n.INFO
+
+TWO_CHILDREN(m)
+    return (n.left != NULL) && (n.right != NULL)
+
+ADD_ROOT(t, z) /* t è un albero vuoto */
+    /* x nuovo nodo dell'albero con i campi parent, info, left, right*/
+    x.info = z
+    x.left = NULL
+    x.right = NULL
+    x.parent = NULL
+    t.root = x
+
+ADD_LEFT(t, n, z)
+    /* suppongo che n non abbia il nodo sinistro */
+    /* x è un nuovo nodo dell'albero con i campi: ... */
+    x.info = z
+    x.parent = n 
+    x.left = NULL
+    x.right = NULL
+    n.left = x
+
+
+ONLY_LEFT(t)
+    x = t.root
+    while x != NULL
+        if x.right != NULL
+            return false
+        x = x.left
+    return true
+
+###########################################################################################################################
+
+ADD_ROOT(t, z)
+/* t albero di grado aribrario vuoto*/
+    x.parent = NULL
+    x.left = NULL
+    x.right = NULL
+    x.info = z
+    t.root = x
+
+###########################################################################################################################
+
+ADD_SIBLING(t, n, z)
+    /* x è un nuovo nodo */
+    x.parent = n
+    x.left = NULL
+    x.right = n.left
+    x.info = z
+    n.left = x
+
+############################################################################################################################
+
+NUMERO_FIGLI(t, n)
+    cont = 0
+    x = n.left
+
+    while(x != NULL)
+        cont++
+        x = x.right
+    return cont
