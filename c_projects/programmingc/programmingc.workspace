@@ -14,7 +14,9 @@
   <Project Name="homework3" Path="homework3/homework3.project" Active="No"/>
   <Project Name="gestione-lista" Path="gestione-lista/gestione-lista.project" Active="No"/>
   <Project Name="homework4" Path="homework4/homework4.project" Active="No"/>
-  <Project Name="random" Path="random/random.project" Active="Yes"/>
+  <Project Name="random" Path="random/random.project" Active="No"/>
+  <Project Name="lista-tramite-oggetti-es-1-11" Path="lista-tramite-oggetti-es-1-11/lista-tramite-oggetti-es-1-11.project" Active="Yes"/>
+  <Project Name="mainRoamtre" Path="mainRoamtre/mainRoamtre.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -33,6 +35,8 @@
       <Project Name="gestione-lista" ConfigName="Debug"/>
       <Project Name="homework4" ConfigName="Debug"/>
       <Project Name="random" ConfigName="Debug"/>
+      <Project Name="lista-tramite-oggetti-es-1-11" ConfigName="Debug"/>
+      <Project Name="mainRoamtre" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -51,6 +55,8 @@
       <Project Name="gestione-lista" ConfigName="Release"/>
       <Project Name="homework4" ConfigName="Release"/>
       <Project Name="random" ConfigName="Release"/>
+      <Project Name="lista-tramite-oggetti-es-1-11" ConfigName="Release"/>
+      <Project Name="mainRoamtre" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
