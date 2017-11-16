@@ -15,8 +15,9 @@
   <Project Name="gestione-lista" Path="gestione-lista/gestione-lista.project" Active="No"/>
   <Project Name="homework4" Path="homework4/homework4.project" Active="No"/>
   <Project Name="random" Path="random/random.project" Active="No"/>
-  <Project Name="lista-tramite-oggetti-es-1-11" Path="lista-tramite-oggetti-es-1-11/lista-tramite-oggetti-es-1-11.project" Active="Yes"/>
+  <Project Name="lista-tramite-oggetti-es-1-11" Path="lista-tramite-oggetti-es-1-11/lista-tramite-oggetti-es-1-11.project" Active="No"/>
   <Project Name="mainRoamtre" Path="mainRoamtre/mainRoamtre.project" Active="No"/>
+  <Project Name="lista_inversa" Path="lista_inversa/lista_inversa.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -37,6 +38,7 @@
       <Project Name="random" ConfigName="Debug"/>
       <Project Name="lista-tramite-oggetti-es-1-11" ConfigName="Debug"/>
       <Project Name="mainRoamtre" ConfigName="Debug"/>
+      <Project Name="lista_inversa" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -57,6 +59,7 @@
       <Project Name="random" ConfigName="Release"/>
       <Project Name="lista-tramite-oggetti-es-1-11" ConfigName="Release"/>
       <Project Name="mainRoamtre" ConfigName="Release"/>
+      <Project Name="lista_inversa" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
