@@ -5,8 +5,8 @@
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/lista-tramite-oggetti-es-1-11/main.c" Name="FileName"/>
-      <int Value="65" Name="FirstVisibleLine"/>
-      <int Value="72" Name="CurrentLine"/>
+      <int Value="174" Name="FirstVisibleLine"/>
+      <int Value="182" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
