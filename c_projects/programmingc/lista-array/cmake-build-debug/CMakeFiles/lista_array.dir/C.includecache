@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/lista-array/lista-array.c
+stdio.h
+-
+stdlib.h
+-
+lista-array.h
+/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/lista-array/lista-array.h
+
+/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/lista-array/lista-array.h
+
+/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/lista-array/main.c
+stdio.h
+-
+stdlib.h
+-
+lista-array.h
+/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/lista-array/lista-array.h
+

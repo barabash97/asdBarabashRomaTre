@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/sentinelle.dir/main.cpp.o  -o sentinelle 

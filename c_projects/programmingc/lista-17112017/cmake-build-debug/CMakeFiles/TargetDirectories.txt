@@ -1,0 +1,3 @@
+/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/lista-17112017/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/lista-17112017/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/lista-17112017/cmake-build-debug/CMakeFiles/lista_17112017.dir

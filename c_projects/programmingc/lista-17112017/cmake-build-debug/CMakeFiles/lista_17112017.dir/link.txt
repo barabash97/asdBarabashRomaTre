@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/lista_17112017.dir/main.c.o CMakeFiles/lista_17112017.dir/lista.c.o  -o lista_17112017 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/lista_array.dir/main.c.o CMakeFiles/lista_array.dir/lista-array.c.o  -o lista_array 
