@@ -1,0 +1,3 @@
+/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/compilamentoAlbero/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/compilamentoAlbero/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/compilamentoAlbero/cmake-build-debug/CMakeFiles/compilamentoAlbero.dir

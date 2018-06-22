@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/compilamentoAlbero.dir/main.c.o  -o compilamentoAlbero 

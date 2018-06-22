@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/darkness/code/roma3/asdBarabashRomaTre/c_projects/programmingc/compilamentoAlbero/main.c
+stdio.h
+-
+stdlib.h
+-
+
